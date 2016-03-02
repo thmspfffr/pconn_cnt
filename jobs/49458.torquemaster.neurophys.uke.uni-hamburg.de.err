@@ -1,0 +1,5 @@
+{Undefined function or variable 'mydata'.
+
+Error in pconn_cnt_sens_planar_dfa (line 102)
+        r = abs(sum(exp(i*pha),2)/size(mydata,2)); clear tmp mydata pha
+} 

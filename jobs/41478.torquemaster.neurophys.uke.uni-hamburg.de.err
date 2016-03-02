@@ -1,0 +1,3819 @@
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'bTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'cTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'dTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'eTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'fTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'gTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'hTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'iTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'jTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'kTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'lTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'mTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'nTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'oTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'pTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'qTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'rTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'sTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'tTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'uTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'zTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'ATb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'BTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'CTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'DTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'ETb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'FTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'GTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'ITb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'JTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'KTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'LTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'NTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'OTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'PTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'QTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'STb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'TTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'UTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'VTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'XTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'YTb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object '1Tb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object '2Tb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object '3Tb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object '4Tb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object '5Tb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object '7Tb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object '8Tb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object '9Tb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'CUb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'CVb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'CWb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'CXb' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'v2b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'H2b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'M2b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'R2b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'W2b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Z2b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object '62b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'w3b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'x3b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'y3b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'b4b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'c4b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'd4b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'e4b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'f4b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'g4b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'h4b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'i4b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'j4b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'k4b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'l4b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'm4b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'n4b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'o4b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'p4b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'q4b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'r4b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 's4b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 't4b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'u4b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'z4b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'A4b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'B4b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'C4b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'D4b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'E4b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'F4b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'q5b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'q6b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object '36b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'q7b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object '37b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'q8b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object '38b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'q9b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object '39b' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object '0cc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'fdc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Gdc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Ndc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Xdc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Ydc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'cec' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'nec' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'vec' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'wec' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'yec' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'cfc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'nfc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'vfc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'wfc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'yfc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Afc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Ffc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object '9fc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'cgc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'ngc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'vgc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'wgc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'ygc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'chc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'nhc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'vhc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'whc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'yhc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Ahc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Fhc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object '9hc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'vic' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'wic' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'yic' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Uic' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object '5jc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object '5kc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Amc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object '1nc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Aqc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Arc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Avc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Axc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'CTc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'CUc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'CVc' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'q4c' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'q5c' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object '35c' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'q6c' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object '36c' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object '37c' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object '38c' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'kbd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Cbd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Kbd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Obd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Pbd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object '2bd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object '0bd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'fcd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Gcd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Ncd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Xcd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Ycd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'cdd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'kdd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'ndd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'vdd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'wdd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'ydd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Kdd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Odd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Pdd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'ced' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'ned' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'ved' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'wed' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'yed' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'cfd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'nfd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'vfd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'wfd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'yfd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Afd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Bfd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object '7fd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'cgd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'ngd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Bgd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object '7gd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'xhd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Bhd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Rhd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Whd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object '7hd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'xid' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Akd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'Ekd' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 377 in H5Rcreate(): unable to create reference
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 231 in H5R_create(): object not found
+    major: References
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object '4kd' doesn't exist
+    major: Symbol table
+    minor: Object not found

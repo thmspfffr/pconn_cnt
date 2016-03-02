@@ -1,0 +1,38 @@
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 836 in H5Rget_obj_type2(): unable to determine object type
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 786 in H5R_get_obj_type(): dereferencing deleted object
+    major: References
+    minor: Bad object header link count
+  #002: H5O.c line 3084 in H5O_get_rc_and_type(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #003: H5O.c line 1684 in H5O_protect(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #004: H5AC.c line 1329 in H5AC_protect(): H5C_protect() failed.
+    major: Object cache
+    minor: Unable to protect metadata
+  #005: H5C.c line 3559 in H5C_protect(): incorrect cache entry type
+    major: Object cache
+    minor: Inappropriate type
+HDF5-DIAG: Error detected in HDF5 (1.8.12) thread 0:
+  #000: H5R.c line 836 in H5Rget_obj_type2(): unable to determine object type
+    major: References
+    minor: Unable to initialize object
+  #001: H5R.c line 786 in H5R_get_obj_type(): dereferencing deleted object
+    major: References
+    minor: Bad object header link count
+  #002: H5O.c line 3084 in H5O_get_rc_and_type(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #003: H5O.c line 1684 in H5O_protect(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #004: H5AC.c line 1329 in H5AC_protect(): H5C_protect() failed.
+    major: Object cache
+    minor: Unable to protect metadata
+  #005: H5C.c line 3559 in H5C_protect(): incorrect cache entry type
+    major: Object cache
+    minor: Inappropriate type

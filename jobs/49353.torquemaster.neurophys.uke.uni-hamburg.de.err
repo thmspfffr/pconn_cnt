@@ -1,0 +1,7 @@
+{Error using load
+Unable to read file
+'/home/tpfeffer/pconn_cnt/proc/preproc/pconn_cnt_postproc_s17_m2_b1_v1.mat'. No
+such file or directory.
+
+Error in pconn_cnt_sens_planar_dfa (line 64)
+        load(sprintf('/home/tpfeffer/pconn_cnt/proc/preproc/pconn_cnt_postproc_s%d_m%d_b%d_v%d.mat',isubj,m,iblock,v_rawdata));} 

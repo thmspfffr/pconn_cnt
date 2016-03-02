@@ -1,0 +1,13 @@
+{Error using load
+Unable to read file
+'/home/tpfeffer/pconn_cnt/proc/preproc/pconn_cnt_postproc_s3_m1_b1_v2.mat'. No
+such file or directory.
+
+Error in pconn_cnt_src_dfa (line 98)
+        load(sprintf('/home/tpfeffer/pconn_cnt/proc/preproc/pconn_cnt_postproc_s%d_m%d_b%d_v%d.mat',isubj,m,iblock,v_rawdata));} 
+
+MATLAB killed because the Java VM could not be terminated for 30 seconds.
+This could be due to a thread or timer that started right before shutdown,
+or a finalizer or shutdown hook that took too long to run.
+
+

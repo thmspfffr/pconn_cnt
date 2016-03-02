@@ -1,0 +1,98 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+Processing s15 m1 ...
+Looking for MRI ...
+Looking for MRI ... Found!
+[Warning: assuming that the units are "mm"] 
+[> In ft_estimate_units (line 51)
+  In ft_convert_units (line 89)
+  In ft_read_mri (line 392)
+  In nc_mk_sa_meg_mri (line 5)
+  In pconn_cnt_src_sa (line 83)] 
+the input is volume data with dimensions [256 256 256]
+[Warning: adding
+/home/tpfeffer/Documents/MATLAB/fieldtrip-20130925/external/spm8 toolbox to
+your Matlab path] 
+Converting the coordinate system from ctf to spm
+[Warning: adding
+/home/tpfeffer/Documents/MATLAB/fieldtrip-20130925/external/freesurfer toolbox
+to your Matlab path] 
+Rescaling NIFTI: slope = 0.00342945, intercept = 0
+Smoothing by 0 & 8mm..
+Coarse Affine Registration..
+Fine Affine Registration..
+performing the segmentation on the specified volume
+creating brainmask
+smoothing brainmask with a 5-voxel FWHM kernel
+thresholding brainmask at a relative threshold of 0.500
+using the segmentation approach
+triangulating the outer boundary of compartment 1 (brain) with 3000 vertices
+the call to "ft_prepare_mesh" took 5 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_prepare_headmodel" took 5 seconds and required the additional allocation of an estimated 1 MB
+[Warning: units mm?] 
+[> In nc_mk_sa_meg_mri (line 29)
+  In pconn_cnt_src_sa (line 83)] 
+Rescaling NIFTI: slope = 0.00342945, intercept = 0
+
+d =
+
+        7500
+
+
+d =
+
+        7500
+
+the input is volume data with dimensions [256 256 256]
+Converting the coordinate system from ctf to spm
+Rescaling NIFTI: slope = 0.00342945, intercept = 0
+Smoothing by 0 & 8mm..
+Coarse Affine Registration..
+Fine Affine Registration..
+not downsampling anatomy
+the call to "ft_volumedownsample" took 0 seconds and required the additional allocation of an estimated 0 MB
+performing the normalisation
+warping the invdividual anatomy to the template anatomy
+Smoothing by 0 & 8mm..
+Coarse Affine Registration..
+Fine Affine Registration..
+3D CT Norm...
+ iteration  1:  FWHM =  18.79 Var = 17.3611
+ iteration  2:  FWHM =  13.59 Var = 2.36986
+ iteration  3:  FWHM =  13.32 Var = 1.81956
+ iteration  4:  FWHM =   13.2 Var = 1.65428
+ iteration  5:  FWHM =  13.09 Var = 1.56672
+ iteration  6:  FWHM =  13.01 Var = 1.50668
+ iteration  7:  FWHM =  12.96 Var = 1.47223
+ iteration  8:  FWHM =  12.92 Var = 1.45057
+ iteration  9:  FWHM =   12.9 Var = 1.43679
+ iteration 10:  FWHM =  12.87 Var = 1.42374
+ iteration 11:  FWHM =  12.87 Var = 1.42068
+ iteration 12:  FWHM =  12.86 Var = 1.41472
+ iteration 13:  FWHM =  12.85 Var = 1.41197
+ iteration 14:  FWHM =  12.84 Var = 1.40747
+ iteration 15:  FWHM =  12.84 Var = 1.40444
+ iteration 16:  FWHM =  12.84 Var = 1.40391
+creating normalised analyze-file for anatomy
+the call to "ft_volumenormalise" took 18 seconds and required the additional allocation of an estimated 87 MB
+5003 dipoles inside, 0 dipoles outside brain
+the call to "ft_prepare_sourcemodel" took 18 seconds and required the additional allocation of an estimated 87 MB
+
+A =
+
+    0.0364    1.0981    0.2344
+   -1.0777    0.0517    0.0161
+   -0.0095   -0.2355    1.1370
+
+Loading MEG-Data ...

@@ -1,0 +1,9 @@
+{Error using load
+Unable to read file
+'/home/tpfeffer/pconn_cnt/proc/preproc/pconn_cnt_postproc_s18_m3_b2_v2.mat'. No
+such file or directory.
+
+Error in pconn_cnt_src_cs (line 58)
+          load(sprintf('/home/tpfeffer/pconn_cnt/proc/preproc/pconn_cnt_postproc_s%d_m%d_b%d_v%d.mat',isubj,im,iblock,v_postproc));
+          
+} 
