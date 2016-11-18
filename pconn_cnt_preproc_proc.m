@@ -15,7 +15,7 @@ v_out         = 1;
 pad           = 1200/2; % 500 ms
 CFG.dftfreq   = [];
 CFG.dftfilter = 'no';
-HPFREQ        = 0.5;
+HPFREQ        = 2;
 planar        = 0;
 % -------------------------------------------------------------------------
 
@@ -23,22 +23,23 @@ outdir = '/home/tpfeffer/pconn_cnt/proc/preproc/';
 
 addpath /home/tpfeffer/pconn/matlab/
 % addpath('/home/tpfeffer/Documents/MATLAB/fieldtrip-20130925/')
-addpath('/home/tpfeffer/fieldtrip-20150318/')
+% addpath('/home/tpfeffer/fieldtrip-20150318/')
+addpath('/home/tpfeffer/Documents/MATLAB/fieldtrip-20160919/')
 
 ft_defaults
 
 %%
-for m = 1 : 2
-  for isubj =2 :3%24
+for m = 1 : 3
+  for isubj =34
     for ibl = 1 : 2
       
       a(1) = exist([outdir sprintf('pconn_cnt_preproc_artvec_s%d_m%d_b%d_v%d.mat',isubj,m,ibl,v_in)]);
-%       a(2) = ~exist(sprintf([outdir 'pconn_cnt_preproc_artifacts_s%d_m%d_b%d_v%d.mat'],isubj,m,ibl,v_out));
+      a(2) = ~exist(sprintf([outdir 'pconn_cnt_preproc_artifacts_s%d_m%d_b%d_v%d.mat'],isubj,m,ibl,v_out));
       a(3) = ~exist(sprintf([outdir 'pconn_cnt_preproc_artifacts_s%d_m%d_b%d_v%d_processing.txt'],isubj,m,ibl,v_out));
       
-%       a = [1 1 1]
+      a = [1 1 1];
       
-%       if a(1) && a(3)
+      if a(1) && a(2) && a(3)
         
         system(['touch ' outdir sprintf('pconn_cnt_preproc_artifacts_s%d_m%d_b%d_v%d_processing.txt',isubj,m,ibl,v_out)]);
         
@@ -167,7 +168,7 @@ for m = 1 : 2
         save([outdir sprintf('pconn_cnt_preproc_artifacts_s%d_m%d_b%d_v%d.mat',isubj,m,ibl,v_out)], 'data_hi','data_low','idx', '-v7.3')
 
         disp(sprintf('Saved.'));
-        
+      end
 %       else
 % %         system(['touch ' outdir sprintf('pconn_preproc_artifacts_s%d_m%d_b%d_v%d_FILENOTFOUND.txt',isubj,m,ibl,v_out)]);
 % %         continue

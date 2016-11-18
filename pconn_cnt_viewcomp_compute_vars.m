@@ -21,17 +21,17 @@ indir   = sprintf('/home/tpfeffer/pconn_cnt/proc/preproc/');
 outdir  = sprintf('/home/tpfeffer/pconn_cnt/proc/preproc/');
 
 addpath /home/gnolte/neuconn/matlab/rest/
-addpath('/home/tpfeffer/Documents/MATLAB/fieldtrip-20130925/')
+addpath('/home/tpfeffer/Documents/MATLAB/fieldtrip-20160919/')
 
 ft_defaults
 
 NSUBJ = 24;
 
-for im = 1 : 3
-  for isubj = 2: 3
+for im = 3 : 3
+  for isubj = 34
     for iblock = 1 : 2
       for ifreq = 1: 2
-        
+%         
 %         if ~exist(sprintf([outdir 'pconn_cnt_preproc_viewcomp_vars_s%d_m%d_b%d_f%d_v%d_processing.txt'],isubj,im,iblock,ifreq,v))
 %         	system(['touch ' outdir sprintf('pconn_cnt_preproc_viewcomp_vars_s%d_m%d_b%d_f%d_v%d_processing.txt',isubj,im,iblock,ifreq,v)]);
 %         else
@@ -54,7 +54,7 @@ for im = 1 : 3
           % COMPUTE VARIANCE FOR 2s-WINDOWS
           siz = eval(sprintf('size(comp_%s.trial{1},1)',hilow));
           for i = 1 : siz
-            
+            i
             smax =  eval(sprintf('floor(size(comp_%s.trial{1},2)/100);',hilow));
             for s = 1 : smax
               eval(sprintf('comp_var(i,s)=var(comp_%s.trial{1}(i,(s-1)*100+1:s*100));',hilow));

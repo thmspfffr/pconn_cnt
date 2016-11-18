@@ -1,5 +1,0 @@
-{Subscripted assignment dimension mismatch.
-
-Error in pconn_cnt_sens_dfa (line 72)
-        par.r(:,iblock) = abs(sum(exp(i*pha),2)/268); clear tmp mydata pha
-} 

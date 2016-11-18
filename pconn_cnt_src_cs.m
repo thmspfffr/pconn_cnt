@@ -15,8 +15,9 @@ v_cs      = 1;          % version of cross spectrum
 v_filt    = 1;
 v_out     = 1;          % version of output
 SEGLENG   = 400;        % segment length
-maxfreqbin = 128;
+maxfreqbin = 200;
 v_postproc = 1;
+SUBJLIST  = [4 5 6 7 8 9 10 11 12 13 15 16 17 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33];
 % --------------------------------------------------------
 
 restoredefaultpath
@@ -25,7 +26,7 @@ addpath /home/gnolte/meg_toolbox/toolbox/
 addpath /home/gnolte/meg_toolbox/fieldtrip_utilities/
 addpath /home/gnolte/meg_toolbox/toolbox_nightly/
 addpath /home/gnolte/meg_toolbox/meg/
-addpath /home/tpfeffer/Documents/MATLAB/fieldtrip-20130925/
+addpath('/home/tpfeffer/Documents/MATLAB/fieldtrip-20160919/')
 addpath /home/gnolte/neuconn/matlab/rest/
 addpath ~/pconn/matlab
 
@@ -38,7 +39,7 @@ freq = 1;
 
 %%
 for im = 1 : 3
-  for isubj = [3 17]
+  for isubj = 33:34
     for iblock = 1 : 2
       
       clear A L grid cs nave coh
@@ -55,18 +56,11 @@ for im = 1 : 3
           % Load data
           % -----------------------------------------------------------------
           disp(sprintf('Loading MEG data ...'));
-          load(sprintf('/home/tpfeffer/pconn_cnt/proc/preproc/pconn_cnt_postproc_s%d_m%d_b%d_v%d.mat',isubj,im,iblock,v_postproc));
+          load(sprintf('/home/tpfeffer/pconn_cnt/proc/preproc/pconn_cnt_postpostproc_s%d_m%d_b%d_v%d.mat',isubj,im,iblock,1));
           % -----------------------------------------------------------------
           
-          if freq == 1
-            clear data_hi
-            [mydata,epleng] = megdata2mydata(data_low);
-          elseif freq == 2
-            clear data_low
-            [mydata,epleng] = megdata2mydata(data_hi);
-          else
-            error('Missing information on frequency!')
-          end
+
+          [mydata,epleng] = megdata2mydata(data);
           
           disp(sprintf('Computing cross spectrum ...'));
           
@@ -80,12 +74,7 @@ for im = 1 : 3
           save([outdir sprintf('pconn_cnt_sens_cs_s%d_m%d_b%d_f%d_v%d.mat',isubj,im,iblock,freq,v_cs)],'cs');
           save([outdir sprintf('pconn_cnt_sens_coh_s%d_m%d_b%d_f%d_v%d.mat',isubj,im,iblock,freq,v_cs)],'coh','nave');
           
-%         catch me
-%           save([outdir sprintf('pconn_sens_cs_s%d_m%d_b%d_f%d_v%d_processing_err.mat',isubj,im,iblock,freq,v_out)],'me');
-%           system(['touch ' outdir sprintf('pconn_sens_cs_s%d_m%d_b%d_f%d_v%d_processing_err.txt',isubj,im,iblock,freq,v_out)]);
-%           error('Something went wrong!')
-%         end
-        
+
       else
         continue
       end

@@ -18,15 +18,15 @@ indir1  = '/home/tpfeffer/pconn/rawdata/meg/';
 outdir  = '/home/tpfeffer/pconn_cnt/proc/preproc/';
 
 addpath /home/tpfeffer/pconn_cnt/matlab/
-addpath /home/tpfeffer/Documents/MATLAB/toolboxes/fieldtrip-20150215/
+addpath('/home/tpfeffer/Documents/MATLAB/fieldtrip-20160919/')
 
 % addpath('/home/tpfeffer/Documents/MATLAB/fieldtrip-20130925/')
 
 ft_defaults
 
 %%
-for m = 1 : 1
-  for isubj = 1:1
+for m = 1:3
+  for isubj =34
   
   indir = sprintf([indir1 'p%d/s%d/'],isubj,m);
   
@@ -71,7 +71,7 @@ for m = 1 : 1
 %     elseif isubj == 22
     end
     
-    for idir = ind
+    for idir = [3 6]
       
       tmp_dataset      = [cont_dir(idir).name];
      
@@ -98,11 +98,11 @@ for m = 1 : 1
             warning('Rest!');
             cond = 1;
             continue
-        elseif sum(cell2mat({a.value})>50)>5
+        elseif sum(cell2mat({a.value})>50)>7
             warning('Task - button press!');
             cond = 2;
             continue
-        elseif size(cell2mat({a.value}),2) > 10 && sum(cell2mat({a.value})>50)<5
+        elseif size(cell2mat({a.value}),2) > 10 && sum(cell2mat({a.value})>50)<7
             warning('Task - counting!');
             cond = 3;
   %           continue

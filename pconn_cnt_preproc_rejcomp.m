@@ -42,17 +42,17 @@ v_rej = 1;
 
 outdir  = sprintf('/home/tpfeffer/pconn_cnt/proc/preproc/');
 
-addpath('/home/tpfeffer/Documents/MATLAB/fieldtrip-20130925/') 
+addpath('/home/tpfeffer/Documents/MATLAB/fieldtrip-20160919/')
 ft_defaults
 
 NSUBJ = 24;
 
 %%
 for im = 1 : 3
-  for isubj = [3 17]
+  for isubj = 34
     for iblock = 1 : 2
       
-      try
+%       try
       ex(1) = exist([outdir sprintf('pconn_cnt_preproc_ica_s%d_m%d_b%d_v%d.mat',isubj,im,iblock,v)]);
       
       if ex(1)
@@ -101,8 +101,8 @@ for im = 1 : 3
 
         continue
       end
-      catch me
-      end
+%       catch me
+%       end
     end
   end
 end

@@ -29,7 +29,7 @@ addpath /home/gnolte/neuconn/matlab/rest/
 addpath('/home/tpfeffer/fieldtrip-20150318/')
 ft_defaults
 
-NSUBJ = 24;
+NSUBJ = 33;
 
 all_color = [linspace(1,0,13)' linspace(0,1,13)' zeros(13,1)];
 
@@ -220,24 +220,24 @@ while total_err == 0
     
     % PLOT COMPONENT TOPOGRAPHY
     subcomp{3}{il} = subplot(subpl,3,(i-(l-1)*subpl)*3);
-%     cfg = [];
-%     cfg.component = [i];       % specify the component(s) that should be plotted
-%     cfg.layout    = 'CTF275.lay'; % specify the layout file that should be used for plotting
-%     cfg.comment   = 'no';
-%     cfg.highlight = 'off';
-%     cfg.marker    = 'off';
+    cfg = [];
+    cfg.component = [i];       % specify the component(s) that should be plotted
+    cfg.layout    = 'CTF275.lay'; % specify the layout file that should be used for plotting
+    cfg.comment   = 'no';
+    cfg.highlight = 'off';
+    cfg.marker    = 'off';
     
-    [~,in] = max(abs(comp_low.topo(:,i)))
+%     [~,in] = max(abs(comp_low.topo(:,i)))
     
-    pars = [];
-    pars.markersize = 0;
-    pars.linewidth = 5;
-    pars.cbar =0;
-    range = eval(sprintf('max(abs(min(comp_%s.topo(:,i))),abs(max(comp_%s.topo(:,i))))',hilow,hilow));
-    pars.scale = [-range+(0.2*range) range-(0.2*range)];
-    
-%     eval(sprintf('ft_topoplotIC(cfg, comp_%s);',hilow));
-    eval(sprintf('showfield(comp_%s.topo(:,i),sa.locs_2D,pars);',hilow));
+%     pars = [];
+%     pars.markersize = 0;
+%     pars.linewidth = 5;
+%     pars.cbar =0;
+%     range = eval(sprintf('max(abs(min(comp_%s.topo(:,i))),abs(max(comp_%s.topo(:,i))))',hilow,hilow));
+%     pars.scale = [-range+(0.2*range) range-(0.2*range)];
+%     
+    eval(sprintf('ft_topoplotIC(cfg, comp_%s);',hilow));
+%     eval(sprintf('showfield(comp_%s.topo(:,i),sa.locs_2D,pars);',hilow));
 
     if strcmp(hilow,'hi')
       maxnum = size(comp_hi.trial{1},1)-3;

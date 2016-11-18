@@ -1,7 +1,0 @@
-{Error using load
-Unable to read MAT-file
-/home/tpfeffer/pconn_cnt/proc/preproc/pconn_cnt_postproc_s6_m2_b1_v1.mat. File
-might be corrupt.
-
-Error in pconn_cnt_sens_dfa (line 49)
-        load(sprintf('/home/tpfeffer/pconn_cnt/proc/preproc/pconn_cnt_postproc_s%d_m%d_b%d_v%d.mat',isubj,m,iblock,v_rawdata));} 

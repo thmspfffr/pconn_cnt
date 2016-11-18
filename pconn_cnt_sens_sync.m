@@ -103,7 +103,7 @@ addpath /home/tpfeffer/pconn/matlab/
 
 ord       = pconn_randomization;
 
-ifoi = 3;
+ifoi = 1;
 
 for m = 1 : 3
   for isubj = SUBJLIST

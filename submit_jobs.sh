@@ -6,7 +6,7 @@
 
 #PBS -q batch
 #PBS -l walltime=700:00:00
-#PBS -l nodes=1:ppn=1
+#PBS -l nodes=node041:ppn=1
 #PBS -l mem=10gb
 
 
@@ -18,7 +18,7 @@ chmod g=wx $PBS_JOBNAME
 # FILE TO EXECUTE
 
 
-# matlab -nodisplay -nodesktop -r "pconn_sens_pup_dfa($RANDOM); exit"  1> jobs/$PBS_JOBID.out 2> jobs/$PBS_JOBID.err
+# matlab -nodisplay -nodesktop -r "pconn_sens_pup_dfa($RANDOM); exit" 1> ~/jobs/$PBS_JOBID.out 2> ~/jobs/$PBS_JOBID.err
 
-matlab -nodisplay -nodesktop -r "pconn_cnt_src_dfa; exit"  1> jobs/$PBS_JOBID.out 2> jobs/$PBS_JOBID.err
+matlab81 -nodisplay -nodesktop -r "pconn_cnt_src_dfa; exit" 1> ~/jobs/$PBS_JOBID.out 2> ~/jobs/$PBS_JOBID.err
 

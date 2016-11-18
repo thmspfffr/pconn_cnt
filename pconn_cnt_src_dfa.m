@@ -1,63 +1,8 @@
 %% COMPUTE WHOLE BRAIN DFA IN SOURCE SPACE
-% pconn_src_dfa
+% pconn_cnt_src_dfa
 
-clear all
 
-% --------------------------------------------------------
-% VERSION 1
-% --------------------------------------------------------
-v         = 1;
-v_rawdata = 2;
-fsample   = 400;
-SUBJLIST  = [3 4 5 6 7 8 9 10 11 12 13 15 16 17 19 20 21 22 23 24];
-foi       = [2 4; 4 8; 8 12; 12 36];
-i_fit     = [1 100];
-i_calc    = [0.5 150];
-gridsize  = 'cortex';
-filt      = 'eloreta';
-% --------------------------------------------------------
-% VERSION 2
-% --------------------------------------------------------
-% v         = 2;
-% v_rawdata = 2;
-% fsample   = 400;
-% SUBJLIST  = [3 4 5 6 7 8 9 10 11 12 13 15 16 17 19 20 21 22 23 24];
-% foi       = [2 4; 4 8; 8 12; 12 36];
-% i_fit     = [1 100];
-% i_calc    = [0.5 150];
-% gridsize  = 'cortex';
-% filt      = 'lcmv';
-% --------------------------------------------------------
-% VERSION 3
-% --------------------------------------------------------
-% v         = 3;
-% v_rawdata = 2;
-% fsample   = 400;
-% SUBJLIST  = [4 5 6 7 8 9 10 11 12 13 15 16 19 20 21 22 23 24];
-% foi       = [2 4; 4 8; 8 12; 12 36];
-% i_fit     = [1 100];
-% i_calc    = [0.5 150];
-% gridsize  = 'coarse';
-% filt      = 'eloreta';
-% --------------------------------------------------------
-% VERSION 4
-% --------------------------------------------------------
-% v         = 4;
-% v_rawdata = 2;
-% fsample   = 400;
-% SUBJLIST  = [4 5 6 7 8 9 10 11 12 13 15 16 19 20 21 22 23 24];
-% foi_tmp   = [3:70];
-% i_fit     = [3 100];
-% i_calc    = [2 150];
-% gridsize  = 'xcoarse';
-% filt      = 'eloreta';
-% --------------------------------------------------------
-
-if v==4
-  for i = 1 : length(foi_tmp)
-    foi(i,:) = [foi_tmp(i)-1 foi_tmp(i)+1];
-  end
-end
+clear
 
 restoredefaultpath
 
@@ -65,243 +10,388 @@ addpath /home/gnolte/meg_toolbox/toolbox/
 addpath /home/gnolte/meg_toolbox/fieldtrip_utilities/
 addpath /home/gnolte/meg_toolbox/toolbox_nightly/
 addpath /home/gnolte/meg_toolbox/meg/
-addpath /home/tpfeffer/Documents/MATLAB/fieldtrip-20130925/
 addpath /home/tpfeffer/Documents/MATLAB/toolboxes/NBT-ReleaseNBTRC4a/
-
-ft_defaults
-
-indir   = '/home/tpfeffer/pconn_cnt/proc/src/';
-outdir   = '/home/tpfeffer/pconn_cnt/proc/dfa/';
-% mridir = '/home/gnolte/neuconn/mri_data/';
-plotdir = '/home/tpfeffer/pconn_cnt/proc/plots/';
-freq = 1;
-
 run ~/Documents/MATLAB/toolboxes/NBT-NBTv0.5.3-alpha/installNBT.m
-%%
 
-for ifoi = 3 : 3%length(foi)
-  for m = 1 : 3
-    for isubj = SUBJLIST
-      
-      if ~exist(sprintf([outdir 'pconn_cnt_src_dfa_s%d_m%d_f%d_v%d_processing.txt'],isubj,m,ifoi,v))
-        system(['touch ' outdir sprintf('pconn_cnt_src_dfa_s%d_m%d_f%d_v%d_processing.txt',isubj,m,ifoi,v)]);
-      else
-        continue
-      end
-      %
-      disp(sprintf('Processing s%d m%d f%d ...', isubj,m,ifoi))
-      
-      for iblock = 1 : 2
-        
-        disp(sprintf('Loading MEG data ...'));
-        
-        if isubj > 3
-          load(sprintf('/home/tpfeffer/pconn_cnt/proc/preproc/pconn_cnt_postproc_s%d_m%d_b%d_v%d.mat',isubj,m,iblock,v_rawdata));
+
+
+for v = [2 8]
+  if v==1
+    % --------------------------------------------------------
+    % VERSION 1
+    % --------------------------------------------------------
+    v         = 1;
+    v_rawdata = 1;
+    is_src    = 0;
+    fsample   = 400;
+    SUBJLIST  = [4 5 6 7 8 9 10 11 12 13 15 16 17 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34];
+    foi       = [2 4; 4 8; 8 12; 12 36; 50 100];
+    i_fit     = [2 100];
+    i_calc    = [1.5 140];
+    dfa_overlap = 0.5;
+    filt_ord  = 2;
+    filt      = 'eloreta';
+    gridsize  = 'cortex';
+  elseif v==2
+    % --------------------------------------------------------
+    % VERSION 2
+    % --------------------------------------------------------
+    v         = 2;
+    v_rawdata = 1;
+    is_src    = 0;
+    fsample   = 400;
+    SUBJLIST  = [4 5 6 7 8 9 10 11 12 13 15 16 17 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34];
+    foi       = [2 4; 4 8; 8 12; 12 36; 50 100];
+    i_fit     = [2 50];
+    i_calc    = [1.5 70];
+    dfa_overlap = 0.5;
+    filt_ord = 2;
+    gridsize  = 'cortex';
+    filt      = 'eloreta';
+  elseif v==3
+    % --------------------------------------------------------
+    % VERSION 3
+    % --------------------------------------------------------
+    v         = 3;
+    v_rawdata = 1;
+    fsample   = 400;
+    SUBJLIST  = [4 5 6 7 8 9 10 11 12 13 15 16 17 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34];
+    foi       = [2 4; 4 8; 8 12; 12 36; 50 100];
+    i_fit     = [2 200];
+    i_calc    = [1.5 250];
+    dfa_overlap = 0.5;
+    filt_ord  = 2;
+    gridsize  = 'cortex';
+    filt      = 'eloreta';
+    % --------------------------------------------------------
+    % VERSION 4
+    % --------------------------------------------------------
+  elseif v == 4
+    v         = 4;
+    v_rawdata = 1;
+    fsample   = 400;
+    SUBJLIST  = [4 5 6 7 8 9 10 11 12 13 15 16 17 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34];
+    foi       = [2:2:148; 4:2:150]';
+    i_fit     = [2 100];
+    i_calc    = [1.5 130];
+    dfa_overlap = 0.5;
+    filt_ord = 2;
+    gridsize  = 'cortex';
+    filt      = 'eloreta';
+  elseif v==5
+    % --------------------------------------------------------
+    % VERSION 5
+    % --------------------------------------------------------
+    v         = 5;
+    v_rawdata = 1;
+    fsample   = 400;
+    SUBJLIST  = [4 5 6 7 8 9 10 11 12 13 15 16 17 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34];
+    foi       = [2 4; 4 8; 8 12; 12 36; 50 100];
+    i_fit     = [2 60];
+    i_calc    = [1.5 80];
+    dfa_overlap = 0.8;
+    filt_ord = 2;
+    gridsize  = 'cortex';
+    filt      = 'eloreta';
+  elseif v == 6
+    % --------------------------------------------------------
+    % VERSION 6
+    % --------------------------------------------------------
+    v         = 6;
+    v_rawdata = 1;
+    fsample   = 400;
+    SUBJLIST  = [4 5 6 7 8 9 10 11 12 13 15 16 17 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34];
+    foi       = [2 4; 4 8; 8 12; 12 36; 50 100];
+    i_fit     = [2 70];
+    i_calc    = [1.5 85];
+    dfa_overlap = 0.8;
+    filt_ord = 2;
+    gridsize  = 'cortex';
+    filt      = 'eloreta';
+  elseif v == 7
+    % --------------------------------------------------------
+    % VERSION 7
+    % --------------------------------------------------------
+    v         = 7;
+    v_rawdata = 1;
+    is_src    = 0;
+    fsample   = 400;
+    SUBJLIST  = [4 5 6 7 8 9 10 11 12 13 15 16 17 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34];
+    foi       = [2 4; 4 8; 8 12; 12 36; 50 100];
+    i_fit     = [2 30];
+    i_calc    = [1.5 50];
+    dfa_overlap = 0.8;
+    filt_ord = 2;
+    gridsize  = 'cortex';
+    filt      = 'eloreta';
+    % --------------------------------------------------------
+  elseif v==8
+    % --------------------------------------------------------
+    % VERSION 8
+    % --------------------------------------------------------
+    v         = 8;
+    v_rawdata = 6;
+    is_src    = 0;
+    fsample   = 400;
+    SUBJLIST  = [4 5 6 7 8 9 10 11 12 13 15 16 17 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34];
+    foi       = [2 4; 4 8; 8 12; 12 36; 50 100];
+    i_fit     = [5 75];
+    % i_calc    = [1.5 50];
+    dfa_overlap = 0.5;
+    filt_ord = 2;
+    gridsize  = 'cortex';
+    filt      = 'eloreta';
+    % --------------------------------------------------------
+    
+  end
+  
+  
+  indir   = '/home/tpfeffer/pconn_cnt/proc/src/';
+  outdir   = '/home/tpfeffer/pconn_cnt/proc/dfa/';
+  plotdir = '/home/tpfeffer/pconn_cnt/proc/plots/';
+  freq = 1;
+  
+  %%
+  
+  for ifoi = 1 : length(foi)
+    for m = 1 : 3
+      for isubj = SUBJLIST
+        %
+        if ~exist(sprintf([outdir 'pconn_cnt_src_dfa_s%d_m%d_f%d_v%d_processing.txt'],isubj,m,ifoi,v))
+          system(['touch ' outdir sprintf('pconn_cnt_src_dfa_s%d_m%d_f%d_v%d_processing.txt',isubj,m,ifoi,v)]);
         else
-          load(sprintf('/home/tpfeffer/pconn_cnt/proc/preproc/pconn_cnt_postproc_s%d_m%d_b%d_v%d.mat',isubj,m,iblock,1));
-        end
-        if freq == 1
-          clear data_hi
-          [mydata,epleng] = megdata2mydata(data_low);
-          clear data_low
-        elseif freq == 2
-          clear data_low
-          [mydata,epleng] = megdata2mydata(data_hi);
-          clear data_hi
-        else
-          error('Missing information on frequency!')
+          continue
         end
         
-        % ------------------------------------------
-        % COMPUTE DFA IN SOURCE SPACE
-        % ------------------------------------------
+        disp(sprintf('Processing s%d m%d f%d ...', isubj,m,ifoi))
         
-        clear L grid
-        % load cross spectrum
-        load(['~/pconn_cnt/proc/src/' sprintf('pconn_cnt_sens_cs_s%d_m%d_b%d_f%d_v%d.mat',isubj,m,iblock,freq,1)]);
+        d=dir(sprintf('/home/tpfeffer/pconn_cnt/proc/preproc/pconn_cnt_postpostproc_s%d_m%d_b*_v%d.mat',isubj,m,1));
         
-        if strcmp(filt,'lcmv')
-          if strcmp(gridsize,'xcoarse')
-            load([indir sprintf('pconn_cnt_sa_s%d_m%d_b%d_v%d.mat',isubj,m,iblock,2)]);
-            [~,A1] = mkfilt_lcmv(sa.L_xcoarse,nanmean(cs(:,:,foi(ifoi,1):foi(ifoi,2)),3));
-          elseif strcmp(gridsize,'coarse')
-            load([indir sprintf('pconn_cnt_sa_s%d_m%d_b%d_v%d.mat',isubj,m,iblock,1)]);
-            [~,A1] = mkfilt_lcmv(sa.L_coarse,nanmean(cs(:,:,foi(ifoi,1):foi(ifoi,2)),3));
-        	elseif strcmp(gridsize,'cortex')
-            load([indir sprintf('pconn_cnt_sa_s%d_m%d_b%d_v%d.mat',isubj,m,iblock,3)]);
-            [~,A1] = mkfilt_lcmv(sa.L_coarse,nanmean(cs(:,:,foi(ifoi,1):foi(ifoi,2)),3));
-           	A1 = getdipdir(nanmean(cs(:,:,foi(ifoi,1):foi(ifoi,2)),3),A1);           
+        if length(d)==1
+          if v < 10
+            blocks = str2num(d.name(end-7));
+          else
+            blocks = str2num(d.name(end-8));
           end
-
-        elseif strcmp(filt,'eloreta')
-          if strcmp(gridsize,'xcoarse')
-            load([indir sprintf('pconn_cnt_sa_s%d_m%d_b%d_v%d.mat',isubj,m,iblock,2)]);
-           	A1 = mkfilt_eloreta_v2(sa.L_xcoarse);
-            A1 = getdipdir(nanmean(cs(:,:,foi(ifoi,1):foi(ifoi,2)),3),A1);
-          elseif strcmp(gridsize,'coarse')
-            load([indir sprintf('pconn_cnt_sa_s%d_m%d_b%d_v%d.mat',isubj,m,iblock,1)]);
-            A1 = mkfilt_eloreta_v2(sa.L_coarse);
-          	A1 = getdipdir(nanmean(cs(:,:,foi(ifoi,1):foi(ifoi,2)),3),A1);
-          elseif strcmp(gridsize,'cortex')
-            load([indir sprintf('pconn_cnt_sa_s%d_m%d_b%d_v%d.mat',isubj,m,iblock,3)]);
-            % watch out! L_coarse is correct even for cortex grid
-           	A1 = mkfilt_eloreta_v2(sa.L_coarse);
-          	A1 = getdipdir(nanmean(cs(:,:,foi(ifoi,1):foi(ifoi,2)),3),A1);
+        elseif length(d) == 2
+          blocks = [1 2];
+        end
+        
+        for iblock = blocks
+          
+          disp(sprintf('Processing MEG s%dm%df%d%b...',isubj,m,ifoi,iblock));
+          
+          if length(d) > 1
+            load(['/home/tpfeffer/pconn_cnt/proc/preproc/' d(iblock).name])
+          else
+            load(['/home/tpfeffer/pconn_cnt/proc/preproc/' d.name])
           end
+          
+          clear data_hi
+          [mydata,epleng] = megdata2mydata(data);
+          clear data
+          
+          % ------------------------------------------
+          % COMPUTE DFA IN SOURCE SPACE
+          % ------------------------------------------
+          
+          clear L grid
+          
+          
+          if strcmp(filt,'lcmv')
+            if strcmp(gridsize,'xcoarse')
+              load([indir sprintf('pconn_cnt_sa_s%d_m%d_b%d_v%d.mat',isubj,m,iblock,2)]);
+              [~,A1] = mkfilt_lcmv(sa.L_xcoarse,nanmean(cs(:,:,foi(ifoi,1):foi(ifoi,2)),3));
+            elseif strcmp(gridsize,'coarse')
+              load([indir sprintf('pconn_cnt_sa_s%d_m%d_b%d_v%d.mat',isubj,m,iblock,1)]);
+              [~,A1] = mkfilt_lcmv(sa.L_coarse,nanmean(cs(:,:,foi(ifoi,1):foi(ifoi,2)),3));
+            elseif strcmp(gridsize,'cortex')
+              load([indir sprintf('pconn_cnt_sa_s%d_m%d_b%d_v%d.mat',isubj,m,iblock,3)]);
+              [~,A1] = mkfilt_lcmv(sa.L_coarse,nanmean(cs(:,:,foi(ifoi,1):foi(ifoi,2)),3));
+              A1 = getdipdir(nanmean(cs(:,:,foi(ifoi,1):foi(ifoi,2)),3),A1);
+            end
+            
+          elseif strcmp(filt,'eloreta')
+            if strcmp(gridsize,'xcoarse')
+              % THIS TAKES THE AVERAGE CROSS SPECTRUM IN SOURCE SPACE
+              % TO DERIVE DIPOLE ORIENTATION!!!
+              for i = 1 : 3
+                
+                load([indir sprintf('pconn_cnt_sa_s%d_m%d_b%d_v%d.mat',isubj,i,iblock,2)]);
+                load(['~/pconn_cnt/proc/src/' sprintf('pconn_cnt_sens_cs_s%d_m%d_b%d_f%d_v%d.mat',isubj,i,iblock,freq,1)]);
+                
+                % watch out! L_coarse is correct even for cortex grid
+                A_tmp = mkfilt_eloreta_v2(sa.L_coarse);
+                
+                eval(sprintf('A%d = A_tmp;',i)); clear A_tmp
+                eval(sprintf('cs%d = nanmean(cs(:,:,foi(ifoi,1):foi(ifoi,2)),3);',i))
+                
+              end
+              
+              load([indir sprintf('pconn_cnt_sa_s%d_m%d_b%d_v%d.mat',isubj,m,iblock,2)]);
+              A = mkfilt_eloreta_v2(sa.L_coarse);
+              
+              for i = 1 : size(A1,2)
+                Aloc = squeeze(A(:,i,:));
+                cs_src1 = squeeze(A1(:,i,:))'*cs1*squeeze(A1(:,i,:)); 
+                cs_src2 = squeeze(A2(:,i,:))'*cs2*squeeze(A2(:,i,:));
+                cs_src3 = squeeze(A3(:,i,:))'*cs3*squeeze(A3(:,i,:));
+                cs_src = (cs_src1+cs_src2+cs_src3)./3;
+                [u s v] = svd(real(cs_src));
+                f(:,i)=Aloc*u(:,1);
+              end
+              clear A1 A2 A3 cs1 cs2 cs3
+              A1 = f; clear f
+              
+            elseif strcmp(gridsize,'coarse')
+              % THIS TAKES THE AVERAGE CROSS SPECTRUM IN SOURCE SPACE
+              % TO DERIVE DIPOLE ORIENTATION!!!
+              for i = 1 : 3
+                
+                load([indir sprintf('pconn_cnt_sa_s%d_m%d_b%d_v%d.mat',isubj,i,iblock,1)]);
+                load(['~/pconn_cnt/proc/src/' sprintf('pconn_cnt_sens_cs_s%d_m%d_b%d_f%d_v%d.mat',isubj,i,iblock,freq,1)]);
+                
+                % watch out! L_coarse is correct even for cortex grid
+                A_tmp = mkfilt_eloreta_v2(sa.L_coarse);
+                
+                eval(sprintf('A%d = A_tmp;',i)); clear A_tmp
+                eval(sprintf('cs%d = nanmean(cs(:,:,foi(ifoi,1):foi(ifoi,2)),3);',i))
+                
+              end
+              
+              load([indir sprintf('pconn_cnt_sa_s%d_m%d_b%d_v%d.mat',isubj,m,iblock,1)]);
+              A = mkfilt_eloreta_v2(sa.L_coarse);
+              
+              for i = 1 : size(A1,2)
+                Aloc = squeeze(A(:,i,:));
+                cs_src1 = squeeze(A1(:,i,:))'*cs1*squeeze(A1(:,i,:)); 
+                cs_src2 = squeeze(A2(:,i,:))'*cs2*squeeze(A2(:,i,:)); 
+                cs_src3 = squeeze(A3(:,i,:))'*cs3*squeeze(A3(:,i,:)); 
+                cs_src = (cs_src1+cs_src2+cs_src3)./3;
+                [u s v] = svd(real(cs_src));
+                f(:,i)=Aloc*u(:,1);
+              end
+              clear A1 A2 A3 cs1 cs2 cs3
+              A1 = f; clear f
+              
+            elseif strcmp(gridsize,'cortex')
+              % THIS TAKES THE AVERAGE CROSS SPECTRUM IN SOURCE SPACE
+              % TO DERIVE DIPOLE ORIENTATION!!!
+              for i = 1 : 3
+                
+                load([indir sprintf('pconn_cnt_sa_s%d_m%d_b%d_v%d.mat',isubj,i,iblock,3)]);
+                load(['~/pconn_cnt/proc/src/' sprintf('pconn_cnt_sens_cs_s%d_m%d_b%d_f%d_v%d.mat',isubj,i,iblock,freq,1)]);
+                
+                % watch out! L_coarse is correct even for cortex grid
+                A_tmp = mkfilt_eloreta_v2(sa.L_coarse);
+                
+                eval(sprintf('A%d = A_tmp;',i)); clear A_tmp
+                eval(sprintf('cs%d = nanmean(cs(:,:,foi(ifoi,1):foi(ifoi,2)),3);',i))
+                
+              end
+              
+              load([indir sprintf('pconn_cnt_sa_s%d_m%d_b%d_v%d.mat',isubj,m,iblock,3)]);
+              A = mkfilt_eloreta_v2(sa.L_coarse);
+              
+              for i = 1 : size(A1,2)
+                Aloc = squeeze(A(:,i,:));
+                cs_src1 = squeeze(A1(:,i,:))'*cs1*squeeze(A1(:,i,:));
+                cs_src2 = squeeze(A2(:,i,:))'*cs2*squeeze(A2(:,i,:));
+                cs_src3 = squeeze(A3(:,i,:))'*cs3*squeeze(A3(:,i,:));
+                cs_src = (cs_src1+cs_src2+cs_src3)./3;
+                [u s v] = svd(real(cs_src));
+                f(:,i)=Aloc*u(:,1);
+              end
+              clear A1 A2 A3 cs1 cs2 cs3
+              A1 = f; clear f
+            end
+          end
+          
+          if length(d) == 1
+            if iblock == 1
+              par.dfa(1:size(A1,2),1)  = nan(3000,1);
+              par.amp(1:size(A1,2),1)  = nan(3000,1);
+              par.var(1:size(A1,2),1)  = nan(3000,1);
+              par.cvar(1:size(A1,2),1) = nan(3000,1);
+            else
+              par.dfa(1:size(A1,2),1)  = nan(3000,1);
+              par.amp(1:size(A1,2),1)  = nan(3000,1);
+              par.var(1:size(A1,2),1)  = nan(3000,1);
+              par.cvar(1:size(A1,2),1) = nan(3000,1);
+            end
+          end
+          
+          clear cs_src1 cs_src2 cs_src3 cs_src cs_avg cs1 cs2 cs3 f A2 A3 A
+          
+          siginfo = nbt_Info;
+          siginfo.converted_sample_frequency = fsample;
+          
+          % compute bp-filtered signal
+          ampenv = single(nbt_filter_fir(mydata,foi(ifoi,1),foi(ifoi,2),siginfo.converted_sample_frequency,2/foi(ifoi,1)));
+          ampenv = hilbert(ampenv);
+          
+          clear mydata data data_hi
+          % project bp-filtered signal into source space
+          ampenv=ampenv*A1; clear A1
+          
+          for ivox = 1 : size(ampenv,2)
+            fprintf('vox%d...\n',ivox)
+            tmp=abs(ampenv(:,ivox));
+            %           ampenv1(:,ivox) = resample(tmp,25,8);
+            %             [par.acorr_acf(:,ivox),par.acorr_lags] = autocorr(tmp,10*400);
+            tmp_dfa  = tp_dfa(tmp,i_fit,400,dfa_overlap,15);
+            par.dfa(ivox,iblock) = tmp_dfa.exp;
+            % FILTER RESAMPLED SIGNAL
+            par.amp(ivox,iblock)  = nanmean(tmp);
+            par.var(ivox,iblock)  = nanvar(tmp);
+            par.cvar(ivox,iblock) = nanstd(tmp)./nanmean(tmp);
+            
+            clear tmp
+          end
+          
+          
+          clear ampenv ampenv1
+          
+          
         end
-
-        siginfo = nbt_Info;
-        siginfo.converted_sample_frequency = fsample;
         
-        % compute bp-filtered signal
-        ampenv = nbt_filter_fir(mydata,foi(ifoi,1),foi(ifoi,2),siginfo.converted_sample_frequency,2/foi(ifoi,1));
-        
-        clear mydata data_low data_hi
-        % project bp-filtered signal into source space
-        ampenv=ampenv*A1;
-
-        for ivox = 1 : size(ampenv,2)
-          disp(ivox)
-          tmp=abs(hilbert(ampenv(:,ivox)));
-          ampenv1(:,ivox) = resample(double(tmp),1,8);
-          clear tmp
-        end
-        
-        siginfo = nbt_Info;
-        siginfo.converted_sample_frequency = fsample/8;
-        
-        
-        % compute DFA
-        tmp  = nbt_doDFA(ampenv1, siginfo, i_fit,i_calc,0,0,0,[]);
-        
-        par.dfa(:,iblock)  = tmp.MarkerValues;
-        par.var(:,iblock)  = nanvar(ampenv1);
-        par.cvar(:,iblock) = nanstd(ampenv1)./nanmean(ampenv1);
-        par.amp(:,iblock)  = nanmean(ampenv1);
-
-        
-      	clear ampenv ampenv1
-
+        save(sprintf([outdir 'pconn_cnt_src_dfa_s%d_m%d_f%d_v%d.mat'],isubj,m,ifoi,v),'par','-v7.3');
+        clear expo tmp
         
       end
-      
-      save(sprintf([outdir 'pconn_cnt_src_dfa_s%d_m%d_f%d_v%d.mat'],isubj,m,ifoi,v),'par','-v7.3');
-      clear expo tmp
-      
     end
   end
 end
-
 error('STOP')
 
-%% PLOT DFA
-v = 1;
+%% CLEAN NON PROCESSED FILES
+outdir   = '/home/tpfeffer/pconn_cnt/proc/dfa/';
 
-SUBJLIST    = [4 5 6 7 8 9 10 11 12 13 15 16 17 19 20 21 22 23 24];
-
-clear exp_all exp_ord exp_all_f ord
-
-ord   = pconn_randomization;
-
-for ifoi = 1 : 4
-  
-  for m = 1 : 3
-    cnt = 0;
-    
-    for isubj = SUBJLIST
-      
-      im = find(ord(isubj,:)==m);
-          
-      load(sprintf([outdir 'pconn_src_dfa_s%d_m%d_f%d_v%d.mat'],isubj,im,ifoi,v));
-      
-      exp_all(:,m,isubj,ifoi) = nanmean(expo,2);
+cnt = 0;
+v = 8;
+cnt_exist = 0;
+for m = 1 : 3
+  for isubj = SUBJLIST
+    for ifoi = 1:5
+      ifoi
+      if exist(sprintf([outdir 'pconn_cnt_src_dfa_s%d_m%d_f%d_v%d.mat'],isubj,m,ifoi,v)) && exist(sprintf([outdir 'pconn_cnt_src_dfa_s%d_m%d_f%d_v%d_processing.txt'],isubj,m,ifoi,v))
+        cnt_exist = cnt_exist + 1;
+        
+        continue
+      elseif exist(sprintf([outdir 'pconn_cnt_src_dfa_s%d_m%d_f%d_v%d.mat'],isubj,m,ifoi,v)) && ~exist(sprintf([outdir 'pconn_cnt_src_dfa_s%d_m%d_f%d_v%d_processing.txt'],isubj,m,ifoi,v))
+        system(['touch ' outdir sprintf('pconn_cnt_src_dfa_s%d_m%d_f%d_v%d_processing.txt',isubj,m,ifoi,v)]);
+        
+      elseif exist(sprintf([outdir 'pconn_cnt_src_dfa_s%d_m%d_f%d_v%d_processing.txt'],isubj,m,ifoi,v)) && ~exist(sprintf([outdir 'pconn_cnt_src_dfa_s%d_m%d_f%d_v%d.mat'],isubj,m,ifoi,v))
+        warning(sprintf('Deleting stuff: s%d m%df %d',isubj,m,ifoi))
+        delete(sprintf([outdir 'pconn_cnt_src_dfa_s%d_m%d_f%d_v%d_processing.txt'],isubj,m,ifoi,v))
+        cnt = cnt + 1;
+      elseif ~exist(sprintf([outdir 'pconn_cnt_src_dfa_s%d_m%d_f%d_v%d_processing.txt'],isubj,m,ifoi,v)) && exist(sprintf([outdir 'pconn_cnt_src_dfa_s%d_m%d_f%d_v%d.mat'],isubj,m,ifoi,v))
+        system(['touch ' outdir sprintf('pconn_cnt_src_dfa_s%d_m%d_f%d_v%d_processing.txt',isubj,m,ifoi,v)]);
+      else
+        error('weird shit')
+      end
       
     end
   end
 end
-
-exp_all = exp_all(:,:,SUBJLIST,:);
-
-ifoi = 3;
-exp_all_f = squeeze(exp_all(:,:,:,ifoi));
-
-col = [1 0.3 0; .5 .5 1; 0 1 1];
-
-
-m1 = squeeze(nanmean(exp_all_f));
-s  = squeeze(std(m1,[],2)./sqrt(size(m1,2)));
-m2 = nanmean(m1,2);
-u  = m2 + s;
-l  = m2 - s;
-
-h = figure;
-set(h,'color','white')
-
-% ERROR BARS
-for i = 1 :3
-  plot([i],m2(i),'o','color',col(i,:),'MarkerSize',10,'MarkerFaceColor',col(i,:)); hold on
-  line([i-0.1 i+0.1],[u(i) u(i)],'color',col(i,:),'LineWidth',2);
-  line([i-0.1 i+0.1],[l(i) l(i)],'color',col(i,:),'LineWidth',2)
-  line([i i],[u(i) l(i)],'color',col(i,:),'LineWidth',4)
-end
-
-title(sprintf('DFA exponent for freq-range: %d - %d Hz',foi(ifoi,1),foi(ifoi,2)))
-xlabel('1 = placebo; 2 = atomoxetine; 3 = donepezil');
-ylabel('DFA exponent');
-
-box off
-xlim([0 4]); ylim([0.95*min(m2) 1.05*max(m2)])
-%     xlim([0 4]); ylim([.60 .75])
-
-[~,p] = ttest(m1(1,:),m1(2,:),'dim',2);
-disp(sprintf('Placebo vs Atomoxetine: p = %.3f',p))
-[~,p] = ttest(m1(1,:),m1(3,:),'dim',2);
-disp(sprintf('Placebo vs Donepezil: p = %.3f',p))
-[~,p] = ttest(m1(2,:),m1(3,:),'dim',2);
-disp(sprintf('Atomoxetine vs Donepezil: p = %.3f',p))
-
-saveas(gcf,sprintf([plotdir 'pconn_dfa_f%d_v%d.fig'],ifoi,v),'fig')
-
-%%
-clear exp_ord
-
-ifoi = 3;
-icond = 2;
-
-load sa_meg_template;
-grid = sa_meg_template.grid_coarse;
-
-mri  = sa_meg_template.mri;
-vc = sa_meg_template.vc;
-%  GENERATE SOURCE PLOT
-
-% figure('units','normalized','position',[0 0 .9 .9])
-
-para                  = [];
-% para.mydotmarkersize  = 40;
-para.orientation      = 'coronal';
-if icond == 1
-  PARA.colorlimits      = [min(min(nanmean(exp_all_f(:,1,:),3))) max(nanmean(exp_all_f(:,1,:),3))];
-end
-% para.colorlimits = PARA.colorlimits;
-para.colormaps        = {'jet'};
-
-h = figure; hold on
-set(h,'color','k');
-
-% PLACEBO - ATOMOXETINE
-para.colorlimits = [0 1];
-showmri_transp_v3(mri,para,[grid a]);
-showmri_transp_v3(mri,para,[grid squeeze(nanmean(exp_all_f(:,1,:),3))-squeeze(nanmean(exp_all_f(:,2,:),3))]);
-
-% PLACEBO - DONEPEZIL
-% showmri_transp_v3(mri,para,[grid squeeze(nanmean(exp_ord(:,1,:),3))-squeeze(nanmean(exp_ord(:,3,:),3))]);
-
-% PLACEBO
-% showmri_transp_v3(mri,para,[grid squeeze(nanmean(exp_ord(:,icond,:),3))]);
-% ALL CONDITIONS
-para.colorlimits = [0.5 0.7];
-showmri_transp_v3(mri,para,[grid squeeze(nanmean(nanmean(exp_all_f,3),2))]);
-
-
-set(gcf,'units','normalized','position',[0.1 0.1 0.8 0.8])
+cnt

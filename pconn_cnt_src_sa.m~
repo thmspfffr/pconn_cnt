@@ -6,9 +6,9 @@ clear all
 % --------------------------------------------------------
 % VERSION 1
 % --------------------------------------------------------
-v         = 1;
-grid_size = 'coarse';
-v_rawdat = 1;
+% v         = 1;
+% grid_size = 'coarse';
+% v_rawdat = 1;
 % --------------------------------------------------------
 % VERSION 2
 % --------------------------------------------------------
@@ -20,7 +20,13 @@ v_rawdat = 1;
 % --------------------------------------------------------
 % v         = 3;
 % grid_size = 'cortex';
-% v_rawdat  = 6;
+% v_rawdat  = 2;
+% --------------------------------------------------------
+% VERSION 4
+% --------------------------------------------------------
+v         = 4;
+grid_size = 'aal';
+v_rawdat  = 2;
 % --------------------------------------------------------
 
 restoredefaultpath
@@ -30,7 +36,7 @@ addpath /home/gnolte/meg_toolbox/fieldtrip_utilities/
 addpath /home/gnolte/meg_toolbox/toolbox_nightly/
 addpath /home/gnolte/meg_toolbox/meg/
 addpath /home/tpfeffer/Documents/MATLAB/fieldtrip-20130925/
-addpath /home/gnolte/neuconn/matlab/rest/
+addpath /home/gnolte/neuconn/OLD/matlab/rest/
 
 ft_defaults
 
@@ -38,7 +44,7 @@ outdir = '/home/tpfeffer/pconn_cnt/proc/src/';
 
 %%
 for im = 1 : 3
-  for isubj = 4:24
+  for isubj = 25:33
     
     indir  = sprintf('/home/tpfeffer/pconn_cnt/rawdata/meg/p%d/s%d/',isubj,im);
     
@@ -66,18 +72,23 @@ for im = 1 : 3
       end
       
       if ~isempty(c_mrid)
-        for imri = 3 : length(c_mrid)
-          if strcmp(c_mrid(imri).name(end-5:end),'V2.mri')
-            mri_data = [mridir c_mrid(imri).name];
-            disp(sprintf('Looking for MRI ... Found!'));
-            br = 0;
+        if length(c_mrid) > 2
+          for imri = 3 : length(c_mrid)
+            if strcmp(c_mrid(imri).name(end-5:end),'V2.mri')
+              mri_data = [mridir c_mrid(imri).name];
+              disp(sprintf('Looking for MRI ... Found!'));
+              br = 0;
+            end
           end
+        else
+          br = 1;
         end
       else
         disp(sprintf('Looking for MRI ... Not Found!'));
 %         continue
         br = 1;
       end
+      addpath ~/pconn/matlab
       
       if br == 0
         sa_meg1 = nc_mk_sa_meg_mri(sa_meg_template,mri_data);
@@ -96,7 +107,7 @@ for im = 1 : 3
         
         disp(sprintf('Loading MEG-Data ...'));
         
-        load(sprintf('~/pconn_cnt/proc/preproc/pconn_cnt_preproc_data_count_s%d_m%d_b%d_v%d.mat',isubj,im,iblock,2))
+        load(sprintf('~/pconn_cnt/proc/preproc/pconn_cnt_preproc_data_count_s%d_m%d_b%d_v%d.mat',isubj,im,iblock,1))
         clear data
         meg_data = cfg1.headerfile;
         
@@ -128,6 +139,19 @@ for im = 1 : 3
           L             = grid2L(sa.grid_xcoarse_indi,sa.fp_indi);
           sa.L_xcoarse  = L;
           sa.leadfield  = 'xcoarse';
+          
+        elseif strcmp(grid_size,'aal')
+          
+          load aalmask_grid_medium
+          load sa_meg_template;
+          para.grid = 'medium';
+          pos = tp_grid2aal(sa.grid_medium_indi',para);
+          sa.grid_aal_indi = pos';
+
+          L             = grid2L(sa.grid_aal_indi,sa.fp_indi);
+          sa.L_aal  = L;
+          sa.leadfield  = 'aal';
+            
             
         end
         

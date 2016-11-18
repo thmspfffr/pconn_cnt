@@ -22,6 +22,12 @@ v         = 3;
 grid_size = 'cortex';
 v_rawdat  = 2;
 % --------------------------------------------------------
+% VERSION 4
+% --------------------------------------------------------
+% v         = 4;
+% grid_size = 'aal';
+% v_rawdat  = 2;
+% --------------------------------------------------------
 
 restoredefaultpath
 
@@ -29,8 +35,8 @@ addpath /home/gnolte/meg_toolbox/toolbox/
 addpath /home/gnolte/meg_toolbox/fieldtrip_utilities/
 addpath /home/gnolte/meg_toolbox/toolbox_nightly/
 addpath /home/gnolte/meg_toolbox/meg/
-addpath /home/tpfeffer/Documents/MATLAB/fieldtrip-20130925/
-addpath /home/gnolte/neuconn/matlab/rest/
+addpath('/home/tpfeffer/Documents/MATLAB/fieldtrip-20160919/')
+addpath /home/gnolte/neuconn/OLD/matlab/rest/
 
 ft_defaults
 
@@ -38,16 +44,16 @@ outdir = '/home/tpfeffer/pconn_cnt/proc/src/';
 
 %%
 for im = 1 : 3
-  for isubj = 2:3
+  for isubj = 32:34
     
     indir  = sprintf('/home/tpfeffer/pconn_cnt/rawdata/meg/p%d/s%d/',isubj,im);
-    
-%       if ~exist(sprintf([outdir 'pconn_cnt_sa_s%d_m%d_v%d_processing.txt'],isubj,im,v))
-%         system(['touch ' outdir sprintf('pconn_cnt_sa_s%d_m%d_v%d_processing.txt',isubj,im,v)]);
-%       else
-%         continue
-%       end
-      
+%     
+      if ~exist(sprintf([outdir 'pconn_cnt_sa_s%d_m%d_v%d_processing.txt'],isubj,im,v))
+        system(['touch ' outdir sprintf('pconn_cnt_sa_s%d_m%d_v%d_processing.txt',isubj,im,v)]);
+      else
+        continue
+      end
+%       
       disp(sprintf('Processing s%d m%d ...',isubj,im));
       
       % ----- ---------------------------------------------------
@@ -66,18 +72,23 @@ for im = 1 : 3
       end
       
       if ~isempty(c_mrid)
-        for imri = 3 : length(c_mrid)
-          if strcmp(c_mrid(imri).name(end-5:end),'V2.mri')
-            mri_data = [mridir c_mrid(imri).name];
-            disp(sprintf('Looking for MRI ... Found!'));
-            br = 0;
+        if length(c_mrid) > 2
+          for imri = 3 : length(c_mrid)
+            if strcmp(c_mrid(imri).name(end-5:end),'V2.mri')
+              mri_data = [mridir c_mrid(imri).name];
+              disp(sprintf('Looking for MRI ... Found!'));
+              br = 0;
+            end
           end
+        else
+          br = 1;
         end
       else
         disp(sprintf('Looking for MRI ... Not Found!'));
 %         continue
         br = 1;
       end
+      addpath ~/pconn/matlab
       
       if br == 0
         sa_meg1 = nc_mk_sa_meg_mri(sa_meg_template,mri_data);
@@ -128,6 +139,19 @@ for im = 1 : 3
           L             = grid2L(sa.grid_xcoarse_indi,sa.fp_indi);
           sa.L_xcoarse  = L;
           sa.leadfield  = 'xcoarse';
+          
+        elseif strcmp(grid_size,'aal')
+          
+          load aalmask_grid_medium
+          load sa_meg_template;
+          para.grid = 'medium';
+          pos = tp_grid2aal(sa.grid_medium_indi',para);
+          sa.grid_aal_indi = pos';
+
+          L             = grid2L(sa.grid_aal_indi,sa.fp_indi);
+          sa.L_aal  = L;
+          sa.leadfield  = 'aal';
+            
             
         end
         

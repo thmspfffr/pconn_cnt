@@ -19,7 +19,8 @@ indir  = '/home/tpfeffer/pconn/rawdata/meg/';
 outdir = '/home/tpfeffer/pconn_cnt/proc/preproc/';
 
 addpath /home/tpfeffer/pconn_cnt/matlab/
-addpath('/home/tpfeffer/fieldtrip-20150318/')
+% addpath('/home/tpfeffer/fieldtrip-20150318/')
+addpath('/home/tpfeffer/Documents/MATLAB/fieldtrip-20160919/')
 
 ft_defaults
 
@@ -27,9 +28,9 @@ ft_defaults
 
 % isubj = 3;
 
-  for im = 2 : 3
+  for im = 1:3
 %   try
-for isubj = 1
+for isubj = 34
 
 
 for ibl = 1 : 2
@@ -77,30 +78,30 @@ for ibl = 1 : 2
       cfg.channel   = {'MEG'};
       cfg.artfctdef.rejvis.artifact = artifact_vis;
       cfg.viewmode = 'vertical';
-      cfg = ft_databrowser(cfg,data);
+%       cfg = ft_databrowser(cfg,data);
       artifact_vis = cfg.artfctdef.rejvis.artifact;
 
       % -------------------------------------------------------------------------
       % DETECT JUMP ARTIFACTS
       % -------------------------------------------------------------------------
-      cfg = cfgs;
-      cfg.trl=cfg.trl(1:end-1,:);
-      cfg.continuous  = 'yes';
-      cfg.artfctdef.zvalue.channel     = 'MEG';
-      cfg.artfctdef.zvalue.cutoff      = 60;
-      cfg.artfctdef.zvalue.trlpadding  = 0;
-      cfg.artfctdef.zvalue.artpadding  = 0;
-      cfg.artfctdef.zvalue.fltpadding  = 0;
-      cfg.artfctdef.zvalue.boxcar      = 0;
-      cfg.artfctdef.zvalue.interactive = 'yes';
-      
-      cfg.artfctdef.zvalue.cumulative     = 'yes';
-      cfg.artfctdef.zvalue.medianfilter   = 'yes';
-      cfg.artfctdef.zvalue.medianfiltord  = 9;
-      cfg.artfctdef.zvalue.absdiff        = 'yes';
-
-      [cfg, artifact_jump] = ft_artifact_zvalue(cfg);
-%     
+%       cfg = cfgs;
+%       cfg.trl=cfg.trl(1:end-1,:);
+%       cfg.continuous  = 'yes';
+%       cfg.artfctdef.zvalue.channel     = 'MEG';
+%       cfg.artfctdef.zvalue.cutoff      = 60;
+%       cfg.artfctdef.zvalue.trlpadding  = 0;
+%       cfg.artfctdef.zvalue.artpadding  = 0;
+%       cfg.artfctdef.zvalue.fltpadding  = 0;
+%       cfg.artfctdef.zvalue.boxcar      = 0;
+%       cfg.artfctdef.zvalue.interactive = 'yes';
+%       
+%       cfg.artfctdef.zvalue.cumulative     = 'yes';
+%       cfg.artfctdef.zvalue.medianfilter   = 'yes';
+%       cfg.artfctdef.zvalue.medianfiltord  = 9;
+%       cfg.artfctdef.zvalue.absdiff        = 'yes';
+% 
+%       [cfg, artifact_jump] = ft_artifact_zvalue(cfg);
+    artifact_jump = [];
       % -------------------------------------------------------------------------
       % DETECT MUSCLE ARTIFACTS
       % -------------------------------------------------------------------------
@@ -117,7 +118,7 @@ for ibl = 1 : 2
       cfg.artfctdef.zvalue.bpfilttype  = 'but';
       cfg.artfctdef.zvalue.hilbert     = 'yes';
       cfg.artfctdef.zvalue.boxcar      = 0.2;
-      cfg.artfctdef.zvalue.interactive = 'no';
+      cfg.artfctdef.zvalue.interactive = 'yes';
       
       [cfg, artifact_muscle] = ft_artifact_zvalue(cfg);
       

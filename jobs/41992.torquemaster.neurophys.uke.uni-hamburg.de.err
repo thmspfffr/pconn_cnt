@@ -1,7 +1,0 @@
-{Error using load
-Unable to read file
-'/home/tpfeffer/pconn_cnt/proc/preproc/pconn_cnt_postproc_s24_m1_b1_v1.mat'. No
-such file or directory.
-
-Error in pconn_cnt_sens_dfa (line 49)
-        load(sprintf('/home/tpfeffer/pconn_cnt/proc/preproc/pconn_cnt_postproc_s%d_m%d_b%d_v%d.mat',isubj,m,iblock,v_rawdata));} 

@@ -1,7 +1,0 @@
-{Undefined function or variable 'pconn_data2cs_event'.
-
-Error in pconn_cnt_src_cs (line 76)
-          [cs, coh, nave] =
-          pconn_data2cs_event(mydata,segleng,segshift,epleng,maxfreqbin);
-
-} 

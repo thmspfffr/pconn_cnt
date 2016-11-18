@@ -14,7 +14,7 @@ v_out = 1;
 CFG.method                = 'fastica';
 split                     = 0;
 CFG.fastica.approach      = 'defl';
-CFG.fastica.numOfIC       = [128 32];
+numOfIC       = [128 32];
 CFG.fastica.g             = 'pow3';
 CFG.fastica.stabilization = 'on';
 CFG.fastica.verbose       = 'on';
@@ -24,18 +24,18 @@ CFG.fastica.displaymode   = 'off';
 
 outdir = '/home/tpfeffer/pconn_cnt/proc/preproc/';
 
-addpath('/home/tpfeffer/Documents/MATLAB/fieldtrip-20130925/')
+addpath('/home/tpfeffer/Documents/MATLAB/fieldtrip-20160919/')
 
 ft_defaults
 
 %%
 for m = 1 : 3
-  for isubj =  2 : 3
+  for isubj =  34 : 34
     for iblock = 1 : 2
 %       try
         
         if exist(sprintf([outdir 'pconn_cnt_preproc_ica_s%d_m%d_b%d_v%d_processing.txt'],isubj,m,iblock,v_out)) 
-%           continue
+          continue
         end
 %         
         system(['touch ' outdir sprintf('pconn_cnt_preproc_ica_s%d_m%d_b%d_v%d_processing.txt',isubj,m,iblock,v_out)]);
@@ -68,10 +68,10 @@ for m = 1 : 3
         end
         
         cfg.channel = 'MEG';
-        cfg.numcomponent = CFG.fastica.numOfIC(1);
+        cfg.numcomponent = numOfIC(1);
         comp_low = ft_componentanalysis(cfg,data_low);
         
-        cfg.numcomponent = CFG.fastica.numOfIC(2);
+        cfg.numcomponent = numOfIC(2);
         comp_hi = ft_componentanalysis(cfg,data_hi);
         
         save([outdir sprintf('pconn_cnt_preproc_ica_s%d_m%d_b%d_v%d.mat',isubj,m,iblock,v_out)],'comp_low','comp_hi','-v7.3')

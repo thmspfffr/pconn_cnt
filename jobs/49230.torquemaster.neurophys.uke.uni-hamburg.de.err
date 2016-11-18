@@ -1,6 +1,0 @@
-{Undefined function or variable 'sel_dH'.
-
-Error in pconn_cnt_sens_planar_dfa (line 102)
-                combined = sqrt(data.trial{k}(sel_dH,:).^2 +
-                data.trial{k}(sel_dV,:).^2);
-} 
