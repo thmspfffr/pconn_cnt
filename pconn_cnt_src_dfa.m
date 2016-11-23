@@ -273,10 +273,10 @@ for v = [2 8]
           
           if length(d) == 1
             if iblock == 1
-              par.dfa(1:size(A1,2),1)  = nan(3000,1);
-              par.amp(1:size(A1,2),1)  = nan(3000,1);
-              par.var(1:size(A1,2),1)  = nan(3000,1);
-              par.cvar(1:size(A1,2),1) = nan(3000,1);
+              par.dfa(1:size(A1,2),2)  = nan(3000,1);
+              par.amp(1:size(A1,2),2)  = nan(3000,1);
+              par.var(1:size(A1,2),2)  = nan(3000,1);
+              par.cvar(1:size(A1,2),2) = nan(3000,1);
             else
               par.dfa(1:size(A1,2),1)  = nan(3000,1);
               par.amp(1:size(A1,2),1)  = nan(3000,1);

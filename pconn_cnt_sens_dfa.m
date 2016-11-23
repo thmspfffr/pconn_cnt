@@ -12,7 +12,7 @@ for v = [2 8 24 84]
     v_rawdata = 6;
     is_src    = 0;
     fsample   = 400;
-    SUBJLIST  = [4 5 6 7 8 9 10 11 12 13 15 16 17 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34];
+    SUBJLIST  = [4 5 6 7 8 9 10 11 12 13 15 16 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34];
     foi       = [2 4; 4 8; 8 12; 12 36; 50 100];
     i_fit     = [3 50];
     dfa_overlap = 0.5;
@@ -25,7 +25,7 @@ for v = [2 8 24 84]
     v_rawdata = 6;
     is_src    = 0;
     fsample   = 400;
-    SUBJLIST  = [4 5 6 7 8 9 10 11 12 13 15 16 17 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34];
+    SUBJLIST  = [4 5 6 7 8 9 10 11 12 13 15 16 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34];
     foi       = [2 4; 4 8; 8 12; 12 36; 50 100];
     i_fit     = [5 75];
     dfa_overlap = 0.5;
@@ -39,7 +39,7 @@ for v = [2 8 24 84]
     v_rawdata = 6;
     is_src    = 0;
     fsample   = 400;
-    SUBJLIST  = [4 5 6 7 8 9 10 11 12 13 15 16 17 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34];
+    SUBJLIST  = [4 5 6 7 8 9 10 11 12 13 15 16 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34];
     foi       = [2:2:148; 4:2:150]';
     i_fit     = [3 50];
     dfa_overlap = 0.5;
@@ -52,7 +52,7 @@ for v = [2 8 24 84]
     v_rawdata = 6;
     is_src    = 0;
     fsample   = 400;
-    SUBJLIST  = [4 5 6 7 8 9 10 11 12 13 15 16 17 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34];
+    SUBJLIST  = [4 5 6 7 8 9 10 11 12 13 15 16 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34];
     foi       = [2:2:148; 4:2:150]';
     i_fit     = [5 75];
     dfa_overlap = 0.5;
@@ -64,7 +64,7 @@ for v = [2 8 24 84]
   addpath /home/gnolte/meg_toolbox/fieldtrip_utilities/
   addpath /home/gnolte/meg_toolbox/toolbox_nightly/
   addpath /home/gnolte/meg_toolbox/meg/
-addpath('/home/tpfeffer/Documents/MATLAB/fieldtrip-20160919/')
+  addpath('/home/tpfeffer/Documents/MATLAB/fieldtrip-20160919/')
   
   outdir   = '/home/tpfeffer/pconn_cnt/proc/dfa/';
   plotdir = '/home/tpfeffer/pconn_cnt/proc/plots/';
@@ -85,19 +85,30 @@ addpath('/home/tpfeffer/Documents/MATLAB/fieldtrip-20160919/')
           load ~/pconn/matlab/pconn_sensorlabels.mat
         end
         
-        if (isubj~=3 && isubj~=2 &&  isubj~=17) && isubj <= 24
-          d = dir(sprintf('/home/tpfeffer/pconn_cnt/proc/preproc/pconn_cnt_postproc_s%d_m%d_b*_v%d.mat',isubj,m,v_rawdata));
-        else
-          d = dir(sprintf('/home/tpfeffer/pconn_cnt/proc/preproc/pconn_cnt_postproc_s%d_m%d_b*_v%d.mat',isubj,m,v_rawdata));
+        d = dir(sprintf('/home/tpfeffer/pconn_cnt/proc/preproc/pconn_cnt_postpostproc_s%d_m%d_b*_v%d.mat',isubj,m,1));
+
+        if length(d)==1
+          if v < 10
+            blocks = str2num(d(1).name(end-7));
+          else
+            blocks = str2num(d(1).name(end-8));
+          end
+        elseif length(d) == 2
+          blocks = [1 2];
         end
-        
-        if ~isempty(d)
-        
-        for iblock = 1 : length(d)
+       
+        for iblock = blocks
+           
+          disp(sprintf('Processing MEG s%dm%df%d%b...',isubj,m,ifoi,iblock));
+          
+          if length(d) > 1
+            load(['/home/tpfeffer/pconn_cnt/proc/preproc/' d(iblock).name])
+          else
+            load(['/home/tpfeffer/pconn_cnt/proc/preproc/' d.name])
+          end
           
           disp(sprintf('Processing MEG s%dm%df%d%b...',isubj,m,ifoi,iblock));
           
-          load(['/home/tpfeffer/pconn_cnt/proc/preproc/' d(iblock).name])
           
           if isubj == 3
             [~,idx_lab]=intersect(data_low.label,lab);
@@ -107,7 +118,7 @@ addpath('/home/tpfeffer/Documents/MATLAB/fieldtrip-20160919/')
           end
           
           clear data_hi clear
-          [mydata,epleng] = megdata2mydata(data_low);
+          [mydata,epleng] = megdata2mydata(data);
           
           mydata = mydata(1:end-1000,:);
           
@@ -136,15 +147,27 @@ addpath('/home/tpfeffer/Documents/MATLAB/fieldtrip-20160919/')
           par.var(:,iblock)   = pconn_sens_interp274(idx,var(ampenv));
           par.cvar(:,iblock)  = sqrt(par.var(:,iblock))./(par.amp(:,iblock));
           
+          if length(d) == 1
+            if iblock == 1
+              par.dfa(1:274,2)  = nan(274,1);
+              par.amp(1:274,2)  = nan(274,1);
+              par.var(1:274,2)  = nan(274,1);
+              par.cvar(1:274,2) = nan(274,1);
+            else
+              par.dfa(1:274,1)  = nan(274,1);
+              par.amp(1:274,1)  = nan(274,1);
+              par.var(1:274,1)  = nan(274,1);
+              par.cvar(1:274,1) = nan(274,1);
+            end
+          end
+          
           clear dfa dat ampenv r amp
           
         end
         
         save(sprintf([outdir 'pconn_cnt_sens_dfa_s%d_m%d_f%d_v%d.mat'],isubj,m,ifoi,v),'par','-v7.3');
         clear par r
-        
-        end
-        
+              
       end
     end
   end
