@@ -13,58 +13,13 @@ for v = [2 8 24 84]
     is_src    = 0;
     fsample   = 400;
     SUBJLIST  = [4 5 6 7 8 9 10 11 12 13 15 16 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34];
-    foi       = [2 4; 4 8; 8 12; 12 36; 50 100];
+    foi       = [2 4; 4 8; 8 12; 12 36];
     i_fit     = [3 50];
-    dfa_overlap = 0.5;
-    filt_ord = 2;
-  elseif v == 8
-    % --------------------------------------------------------
-    % VERSION 2
-    % --------------------------------------------------------
-    v         = 8;
-    v_rawdata = 6;
-    is_src    = 0;
-    fsample   = 400;
-    SUBJLIST  = [4 5 6 7 8 9 10 11 12 13 15 16 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34];
-    foi       = [2 4; 4 8; 8 12; 12 36; 50 100];
-    i_fit     = [5 75];
-    dfa_overlap = 0.5;
-    filt_ord = 2;
-    % --------------------------------------------------------
- 	elseif v == 24
-    % --------------------------------------------------------
-    % VERSION 24 - COMPUTE DFA ACROSS FREQUENCIES
-    % --------------------------------------------------------
-    v         = 24;
-    v_rawdata = 6;
-    is_src    = 0;
-    fsample   = 400;
-    SUBJLIST  = [4 5 6 7 8 9 10 11 12 13 15 16 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34];
-    foi       = [2:2:148; 4:2:150]';
-    i_fit     = [3 50];
-    dfa_overlap = 0.5;
-    filt_ord = 2;
-  elseif v == 84
-    % --------------------------------------------------------
-    % VERSION 24 - COMPUTE DFA ACROSS FREQUENCIES
-    % --------------------------------------------------------
-    v         = 84;
-    v_rawdata = 6;
-    is_src    = 0;
-    fsample   = 400;
-    SUBJLIST  = [4 5 6 7 8 9 10 11 12 13 15 16 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34];
-    foi       = [2:2:148; 4:2:150]';
-    i_fit     = [5 75];
     dfa_overlap = 0.5;
     filt_ord = 2;
   end
   
-  addpath ~/pconn/matlab/
-  addpath /home/gnolte/meg_toolbox/toolbox/
-  addpath /home/gnolte/meg_toolbox/fieldtrip_utilities/
-  addpath /home/gnolte/meg_toolbox/toolbox_nightly/
-  addpath /home/gnolte/meg_toolbox/meg/
-  addpath('/home/tpfeffer/Documents/MATLAB/fieldtrip-20160919/')
+  tp_addpaths
   
   outdir   = '/home/tpfeffer/pconn_cnt/proc/dfa/';
   plotdir = '/home/tpfeffer/pconn_cnt/proc/plots/';
@@ -88,18 +43,18 @@ for v = [2 8 24 84]
         d = dir(sprintf('/home/tpfeffer/pconn_cnt/proc/preproc/pconn_cnt_postpostproc_s%d_m%d_b*_v%d.mat',isubj,m,1));
 
         if length(d)==1
-          if v < 10
+%           if v < 10
             blocks = str2num(d(1).name(end-7));
-          else
-            blocks = str2num(d(1).name(end-8));
-          end
+%           else
+%             blocks = str2num(d(1).name(end-8));
+%           end
         elseif length(d) == 2
           blocks = [1 2];
         end
        
         for iblock = blocks
            
-          disp(sprintf('Processing MEG s%dm%df%d%b...',isubj,m,ifoi,iblock));
+          disp(sprintf('Processing MEG s%dm%df%d%bv%d...',isubj,m,ifoi,iblock,v));
           
           if length(d) > 1
             load(['/home/tpfeffer/pconn_cnt/proc/preproc/' d(iblock).name])
@@ -126,8 +81,8 @@ for v = [2 8 24 84]
           siginfo.converted_sample_frequency = fsample;
           
           % compute bp-filtered signal
-          tmp    = single(nbt_filter_fir(mydata,foi(ifoi,1),foi(ifoi,2),siginfo.converted_sample_frequency,filt_ord/foi(ifoi,1)));
-          ampenv = abs(hilbert(tmp));
+          tmp       = single(nbt_filter_fir(mydata,foi(ifoi,1),foi(ifoi,2),siginfo.converted_sample_frequency,filt_ord/foi(ifoi,1)));
+          ampenv    = abs(hilbert(tmp));
         	tmp_dfa   = tp_dfa(ampenv,i_fit,400,dfa_overlap,15);
 
           clear data_low
@@ -142,7 +97,7 @@ for v = [2 8 24 84]
             load(sprintf('~/pconn/proc/preproc/pconn_chanidx_s%d_m%d.mat',isubj,m))
           end
           
-          par.dfa(:,iblock)   = pconn_sens_interp274(idx,tmp_dfa);
+          par.dfa(:,iblock)   = pconn_sens_interp274(idx,tmp_dfa.exp);
           par.amp(:,iblock)   = pconn_sens_interp274(idx,mean(ampenv));
           par.var(:,iblock)   = pconn_sens_interp274(idx,var(ampenv));
           par.cvar(:,iblock)  = sqrt(par.var(:,iblock))./(par.amp(:,iblock));
@@ -161,7 +116,7 @@ for v = [2 8 24 84]
             end
           end
           
-          clear dfa dat ampenv r amp
+          clear dfa dat ampenv r amp tmp_dfa
           
         end
         
@@ -176,6 +131,8 @@ end
   error('STOP')
   
   %% PLOT ACROSS FREQ
+  
+  v = 24;
 ord = pconn_randomization;
 
 for isubj = SUBJLIST
@@ -184,7 +141,7 @@ for isubj = SUBJLIST
 
     for ifoi = 1 : 74
       
-      load(sprintf(['~/pconn_cnt/proc/dfa/' 'pconn_cnt_sens_dfa_s%d_m%d_f%d_v%d.mat'],isubj,im,ifoi,4));
+      load(sprintf(['~/pconn_cnt/proc/dfa/' 'pconn_cnt_sens_dfa_s%d_m%d_f%d_v%d.mat'],isubj,im,ifoi,v));
       
       alldfa(isubj,m,ifoi) = nanmean(nanmean(par.dfa,2));
       allvar(isubj,m,ifoi) = nanmean(nanmean(par.var,2));
@@ -204,26 +161,27 @@ allamp = allamp(SUBJLIST,:,:);
   %% 
   
 f = mean(foi,2); 
-col = {[0.7 0.7 0.7];[1 0.4 0];[0 0.5 1]}
+col = cbrewer('qual', 'Set1', 10,'pchip');
+col = [0.7 0.7 0.7; col(1,:); col(2,:)]
 
 figure;set(gcf,'color','w'); hold on; set(gca,'tickdir','out')
-alltitle = {'DFA';'VAR';'CVAR';'AMP'}
+alltitle = {'DFA'}
 
-for iall = 1 : 4
+for iall = 1 : 2
   if iall == 1
     par = alldfa;
   elseif iall == 2
-    par = allvar;
+%     par = allcvar;
   elseif iall == 3
-    par = allcvar;
+%     par = allcvar;
   elseif iall == 4
-    par = allamp;
+%     par = allamp;
   end
   
-  subplot(2,2,iall); hold on; title(alltitle{iall})
+  subplot(1,2,1); hold on; title(alltitle{iall})
 
   for i = 1 : 3
-    plot(log2(f),log2(squeeze(nanmean(par(:,i,1:end),1))),'color',col{i},'linewidth',3)
+    plot(log2(f),squeeze(nanmean(par(:,i,1:end),1)),'color',col(i,:),'linewidth',3)
   end
 
 %   t = logical(squeeze(ttest(par(:,2,:),par(:,1,:),'dim',1)));
@@ -238,28 +196,28 @@ end
   print(gcf,'-depsc2',sprintf('~/pconn_all/plots/all_para_across_freq_v%d.eps',v))
 
 figure;set(gcf,'color','w'); hold on;
-alltitle = {'DFA';'VAR';'CVAR';'AMP'}
+alltitle = {'DFA'}
 
-for iall = 1 : 4
+for iall = 1 : 1
   if iall == 1
     par = alldfa;
   elseif iall == 2
-    par = allvar;
+%     par = allvar;
   elseif iall == 3
-    par = allcvar;
+%     par = allcvar;
   elseif iall == 4
-    par = allamp;
+%     par = allamp;
   end
   
-  subplot(2,2,iall); hold on; title(alltitle{iall})
+  subplot(1,2,2); hold on; title(alltitle{iall})
 
   [t1,p1] = ttest(par(:,2,:),par(:,1,:),'dim',1);
   [t2,p2] = ttest(par(:,3,:),par(:,1,:),'dim',1);
 
       line([1 7],[1.3 1.3],'color','k','linestyle','--')
 
-    plot(log2(f),-log10(squeeze(p1)),'color',col{2},'linewidth',3)
-   plot(log2(f),-log10(squeeze(p2)),'color',col{3},'linewidth',3)
+    plot(log2(f),-log10(squeeze(p1)),'color',col(2,:),'linewidth',3)
+   plot(log2(f),-log10(squeeze(p2)),'color',col(3,:),'linewidth',3)
     axis([0 8 -0.2 3.5])
 set(gca,'xtick',[1 3  5  7],'xticklabel',[2 8  32  128],'tickdir','out')
      

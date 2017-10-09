@@ -25,34 +25,34 @@ addpath('/home/tpfeffer/Documents/MATLAB/fieldtrip-20160919/')
 ft_defaults
 
 %%
-for m = 1:3
-  for isubj =34
+for m = 2
+  for isubj =17
   
   indir = sprintf([indir1 'p%d/s%d/'],isubj,m);
   
 %   try
     
-    if ~exist([outdir sprintf('pconn_cnt_preproc_s%d_m%d_v%d_processing.txt',isubj,m,v)]) 
-%         && ~exist([outdir sprintf('pconn_preproc_data_s%d_m%d_v%d.mat',isubj,m,v)])
-      
-      system(['touch ' outdir sprintf('pconn_cnt_preproc_s%d_m%d_v%d_processing.txt',isubj,m,v)]);
-      disp(sprintf('Processing subject s%d m%d',isubj,m));
-      
-      % no proc file, but output: create proc file
-    elseif ~exist([outdir sprintf('pconn_cnt_preproc_s%d_m%d_v%d_processing.txt',isubj,m,v)]) ...
-        && exist([outdir sprintf('pconn_cnt_preproc_data_s%d_m%d_v%d.mat',isubj,m,v)])
-      
-      system(['touch ' outdir sprintf('pconn_cnt_preproc_s%d_m%d_v%d_processing.txt',isubj,m,v)]);
-      continue
-      
-    elseif exist([outdir sprintf('pconn_cnt_preproc_s%d_m%d_v%d_processing.txt',isubj,m,v)]) ...
-        && ~exist([outdir sprintf('pconn_cnt_preproc_data_s%d_m%d_v%d.mat',isubj,m,v)])
-      
-      disp(sprintf('Processing subject s%d m%d',isubj,m));
-      
-    else
-    continue
-    end
+%     if ~exist([outdir sprintf('pconn_cnt_preproc_s%d_m%d_v%d_processing.txt',isubj,m,v)]) 
+% %         && ~exist([outdir sprintf('pconn_preproc_data_s%d_m%d_v%d.mat',isubj,m,v)])
+%       
+%       system(['touch ' outdir sprintf('pconn_cnt_preproc_s%d_m%d_v%d_processing.txt',isubj,m,v)]);
+%       disp(sprintf('Processing subject s%d m%d',isubj,m));
+%       
+%       % no proc file, but output: create proc file
+%     elseif ~exist([outdir sprintf('pconn_cnt_preproc_s%d_m%d_v%d_processing.txt',isubj,m,v)]) ...
+%         && exist([outdir sprintf('pconn_cnt_preproc_data_s%d_m%d_v%d.mat',isubj,m,v)])
+%       
+%       system(['touch ' outdir sprintf('pconn_cnt_preproc_s%d_m%d_v%d_processing.txt',isubj,m,v)]);
+%       continue
+%       
+%     elseif exist([outdir sprintf('pconn_cnt_preproc_s%d_m%d_v%d_processing.txt',isubj,m,v)]) ...
+%         && ~exist([outdir sprintf('pconn_cnt_preproc_data_s%d_m%d_v%d.mat',isubj,m,v)])
+%       
+%       disp(sprintf('Processing subject s%d m%d',isubj,m));
+%       
+%     else
+%     continue
+%     end
     
     cont_dir = dir(indir);
     
@@ -71,7 +71,7 @@ for m = 1:3
 %     elseif isubj == 22
     end
     
-    for idir = [3 6]
+    for idir = 3:8
       
       tmp_dataset      = [cont_dir(idir).name];
      

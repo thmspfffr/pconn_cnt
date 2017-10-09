@@ -4,7 +4,7 @@
 
 for i in {1..15}
 do
-  echo 'Start Job' $i
-  qsub submit_jobs.sh
-  sleep 10
+  let var1=40*$i;
+  echo 'Start Job ' $i 'wait for: ' $var1 's'
+  qsub -v var="$var1" submit_jobs.sh
 done

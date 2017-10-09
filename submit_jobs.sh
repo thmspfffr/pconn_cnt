@@ -20,5 +20,7 @@ chmod g=wx $PBS_JOBNAME
 
 # matlab -nodisplay -nodesktop -r "pconn_sens_pup_dfa($RANDOM); exit" 1> ~/jobs/$PBS_JOBID.out 2> ~/jobs/$PBS_JOBID.err
 
-matlab -nodisplay -nodesktop -r "pconn_cnt_sens_dfa; exit" 1> ~/jobs/$PBS_JOBID.out 2> ~/jobs/$PBS_JOBID.err
+sleep "$var"
+
+matlab -nodisplay -nodesktop -r "pconn_cnt_src_sa; exit" 1> ~/jobs/$PBS_JOBID.out 2> ~/jobs/$PBS_JOBID.err
 
