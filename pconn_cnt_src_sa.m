@@ -54,8 +54,20 @@ clear
 % --------------------------------------------------------
 % VERSION 9
 % --------------------------------------------------------
-v         = 9;
-grid_size = 'cortex_lowres';
+% v         = 9;
+% grid_size = 'cortex_lowres';
+% v_rawdat  = 6;
+% --------------------------------------------------------
+% VERSION 10
+% --------------------------------------------------------
+% v         = 10;
+% grid_size = 'vtpm_4mm';
+% v_rawdat  = 6;
+% --------------------------------------------------------
+% VERSION 11
+% --------------------------------------------------------
+v         = 11;
+grid_size = 'vtpm_6mm';
 v_rawdat  = 6;
 % --------------------------------------------------------
 
@@ -128,9 +140,13 @@ for im = 1 : 3
           sa_meg_template.grid_aal4mm = aal.grid_4mm;
           sa_meg_template.grid_aal6mm = aal.grid_6mm;
                   
-          m758 = tp_m758_grid();
+          m758 = tp_create_grid('m758');
           sa_meg_template.grid_m758_4mm = m758.grid_4mm;
           sa_meg_template.grid_m758_6mm = m758.grid_6mm;
+
+          vtpm = tp_create_grid('vtpm');
+          sa_meg_template.grid_vtpm_4mm = vtpm.grid_4mm;
+          sa_meg_template.grid_vtpm_6mm = vtpm.grid_6mm;
           
           sa_meg1 = nc_mk_sa_meg_mri(sa_meg_template,mri_data);
    
@@ -157,9 +173,14 @@ for im = 1 : 3
           sa_template.grid_aal4mm = aal.grid_4mm;
           sa_template.grid_aal6mm = aal.grid_6mm;
           
-          m758 = tp_m758_grid();
+          m758 = tp_create_grid('m758');
           sa_template.grid_m758_4mm = m758.grid_4mm;
           sa_template.grid_m758_6mm = m758.grid_6mm;
+          
+          vtpm = tp_create_grid('vtpm');
+          sa_meg_template.grid_vtpm_4mm = vtpm.grid_4mm;
+          sa_meg_template.grid_vtpm_6mm = vtpm.grid_6mm;
+        
           
           sa  = tp_mk_sa_meg_withoutmri(sa_template,cfg1.headerfile);
           saa = 1;
@@ -248,7 +269,21 @@ for im = 1 : 3
           sa.L_coarse   = L;
           sa.leadfield  = 'cortex_lowres';
           
+        elseif strcmp(grid_size,'vtpm_4mm')
+        
+            L              = grid2L(sa.grid_vtpm_4mm_indi,sa.fp_indi);
+            sa.L_vtpm_4mm  = L;
+            sa.leadfield   = 'vtpm_4mm';
+            
+        elseif strcmp(grid_size,'vtpm_6mm')
+          
+          L              = grid2L(sa.grid_vtpm_6mm_indi,sa.fp_indi);
+          sa.L_vtpm_6mm  = L;
+          sa.leadfield   = 'vtpm_6mm';
+          
         end
+        
+        
         
         save([outdir sprintf('pconn_cnt_sa_s%d_m%d_b%d_v%d.mat',isubj,im,iblock,v)],'sa');
         close all
